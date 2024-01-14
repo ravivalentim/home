@@ -1,7 +1,24 @@
+
+#profile-picture-container {
+    width: 100px;
+    height: 100px;
+    background-color: #54b2ec;
+    border-radius: 50%;
+    border: 2px solid #0f95ef;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 div {
     width: 50%;
     height: 30%;
     margin: auto;
     border: 2px #72deff solid;
     text-align: center;
+    font-family: minecraftFont;
+}
+
+@font-face {
+    font-family: minecraftFont;
+    src: url("../fonts/Minecraft.ttf");
 }
