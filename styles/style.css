@@ -2,20 +2,29 @@
 #profile-picture-container {
     width: 100px;
     height: 100px;
-    background-color: #54b2ec;
-    border-radius: 50%;
-    border: 2px solid #0f95ef;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: #009dff;
+    border-radius: 2px;
+    border: 2px solid #0fc2ef55;
+    margin: auto;
 }
 
-div {
+#xp-image {
+    text-align: center;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+}
+
+#about-me-container {
     width: 50%;
     height: 30%;
     margin: auto;
     border: 2px #72deff solid;
     text-align: center;
     font-family: minecraftFont;
+    margin-top: 15px;
 }
 
 @font-face {
