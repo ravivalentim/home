@@ -1,121 +1,42 @@
- @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 html {
-    background-color: #404258;
+    background-color: #ffffff;
 }
 
-video {
-    width: 50%;
-    height: auto;
-}
-
-
-@media only screen and (max-width: 800px) {
-    video {
-        width: 100%;
-        height: auto;
-    }
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 32px;
 }
 
 h2 {
-    margin-top: -18px;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-h3 {
-    margin-top: -18px;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+a {
+    text-decoration: none;
 }
 
-ul {
+#links-container ul {
     list-style: none;
-}
-
-a:link { 
-    text-decoration: none; 
-} 
-
-a:visited { 
-    text-decoration: none; 
-} 
-
-a:hover { 
-    text-decoration: none; 
-} 
-
-a:active { 
-    text-decoration: none; 
-}
-
-  
-.container {
-    width: 80%;
-    background-color: #474E68;
-    margin: auto;
-    border-radius: 6px;
-    margin-top: 16px;
-    box-shadow: #0000001a 0px 4px 12px;
-}
-
-#about-container {
-    margin: auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    margin-top: 10px;
-
 }
 
-#info-container {
-    width: auto;
+#links-container ul li {
+    display: inline;
+}
+
+#links-container ul li a{
+    text-decoration: none;
+    padding: .2em 1em;
+}
+
+p {
     text-align: center;
-    margin: auto;
-    margin-top: 8px;
-    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 32px;
 }
-
-#full-name {
-    margin-top: 6px;
-    margin-bottom: 5px;
-    font-family: 'Noto Sans', sans-serif;
-    color: #ffffff
-}
-
-#titles {
-    margin-top: 1px;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-}
-
-#social-container ul {
-   display: flex;
-}
-
-#social-container ul li {
-    margin-right: 30px;
- }
-
-#social-container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.social-imgs {
-    width: 25px;
-    height: 25px;
-}
-
-#profile-img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    margin-top: 18px;
-
-}
-
