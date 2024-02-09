@@ -40,3 +40,28 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 32px;
 }
+
+.btn {
+    background-color: #1e90ff;
+    border: none;
+    color: #ffffff;
+    padding: .3em 1em;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 2px;
+}
+  
+.btn {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #1d84eb;
+}
+
+#cv-link {
+    color: #ffffff;
+}
