@@ -1,79 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-html {
-    background-color: #ffffff;
-}
+body {
 
-h1 {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 32px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-h3 {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-#links-container ul {
-    list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-
-#links-container ul li {
-    display: inline;
-}
-
-#links-container ul li a{
-    text-decoration: none;
-    padding: .2em 1em;
-}
-
-p {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 32px;
-}
-
-.btn {
-    background-color: #1e90ff;
-    border: none;
-    color: #ffffff;
-    padding: .3em 1em;
-    cursor: pointer;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    border-radius: 2px;
-}
-  
-.btn {
-    margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f1f1f1;
+
+    background-color: #1E1E1E;
+    /*background-color: #121212;*/
 }
 
-.btn:hover {
-    background-color: #1d84eb;
+.container {
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
 }
 
-#cv-link {
+.container img {
+    height: 180px;
+    border-radius: 50%;
+}
+
+.linkedin-link {
+    text-decoration: none;
+    color: #0077b5;
+    font-size: 26px;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+.github-link {
+    text-decoration: none;
     color: #ffffff;
+    font-size: 26px;
+    margin: 10px;
+    transition: color 0.3s;
 }
 
-#cats {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+.email-link {
+    text-decoration: none;
+    color: 	#6e6e6e;
+    font-size: 26px;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+.container-about {
+    font-size: 20px;
+    text-align: justify;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
