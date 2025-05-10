@@ -7,11 +7,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100dvh;
     font-family: 'Josefin Sans', sans-serif;
     color: #f1f1f1;
     background-color: #1E1E1E;
 }
+
+
 
 .container {
     padding: 20px;
@@ -21,6 +23,7 @@ body {
 }
 
 .container img {
+    padding-top: 6px;
     height: 180px;
     border-radius: 50%;
 }
@@ -51,55 +54,13 @@ body {
 
 .container-about {
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     /*font-family: "Roboto", sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-weight: 100;
+    margin: 0 auto;
 }
 
-.bnt-curriculo {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #0077b5;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    font-size: 16px;
+.skills {
+    font-size: 48px;
 }
-
-.bnt-curriculo:hover {
-    background-color: #005582;
-    transform: scale(1.05);
-}
-
-
-.items-dl {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #1e1e1e; /* para fundo escuro */
-    border-radius: 12px;
-    box-shadow: 0 4px 10px #0000003d;
-    color: #e0e0e0;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-  }
-  
-  .items-dl dt {
-    font-weight: bold;
-    color: #b12929;
-    margin-top: 16px;
-    font-size: 1.1em;
-  }
-  
-  .items-dl dd {
-    margin-left: 0;
-    padding-left: 16px;
-    margin-bottom: 12px;
-    color: #ffffff;
-  }
-  
